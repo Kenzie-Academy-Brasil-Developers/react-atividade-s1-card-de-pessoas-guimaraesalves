@@ -1,0 +1,27 @@
+.DevCard {
+  margin: 1 rem;
+  width: 200px;
+  height: 200px;
+  background-color: #3b41b3;
+  border-radius: 8px;
+  border: #f1f1f1 solid 1px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.DevCard:hover {
+  filter: brightness(0.7);
+}
+
+.DevCard p {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.OneCard {
+  margin-bottom: 20px;
+}
